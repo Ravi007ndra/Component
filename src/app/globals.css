@@ -1,0 +1,42 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    background-color: black;
+}
+
+.card-bg {
+    background: linear-gradient(88.77deg, #3F3F3F 1.05%, #656565 98.78%);
+}
+
+.community-card {
+    background-image: url('../../public/community.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 465px;
+}
+
+.sign-up-1 {
+    background-image: url('../../public/signup2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 781px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+/* .sign-up-2 {
+    background-image: url('../../public/signup1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    max-width: 800px;
+} */
+
+.sign-up-content {
+    background: #000503;
+    border-radius: 50px;
+}
