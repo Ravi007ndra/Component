@@ -1,15 +1,18 @@
 'use client'
-import Community from "./_component/motionLaser/Community";
 import Featured from "./_component/motionLaser/Featured";
-import SignUp from "./_component/motionLaser/SignUp";
+import Occasion from "./_component/motionLaser/Occasion";
 
 export default function Home() {
 
   return (
     <>
-      <Featured />
-      <Community />
-      <SignUp />
+      <div className="">
+        <Featured />
+        <img src="/bg1.png" alt="dd" className="f-bg" />
+      </div>
+      {/* <Community /> */}
+      {/* <SignUp /> */}
+      <Occasion />
     </>
   );
 }

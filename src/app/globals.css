@@ -5,7 +5,21 @@ body {
 }
 
 .card-bg {
-    background: linear-gradient(88.77deg, #3F3F3F 1.05%, #656565 98.78%);
+    background: linear-gradient(88.77deg, rgba(63, 63, 63, 0.2) 1.05%, rgba(101, 101, 101, 0.2) 98.78%);
+}
+
+.featured-bg {
+    background-image: url('../../public/bg1.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-bg {
+    width: 1000px;
+    position: absolute;
+    top: -318px;
+    z-index: -3;
 }
 
 .community-card {
@@ -24,17 +38,9 @@ body {
     height: 781px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
 }
 
-/* .sign-up-2 {
-    background-image: url('../../public/signup1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
-    max-width: 800px;
-} */
 
 .sign-up-content {
     background: #000503;
